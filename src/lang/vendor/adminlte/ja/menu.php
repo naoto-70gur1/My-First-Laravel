@@ -5,7 +5,6 @@ return [
     'main_navigation'               => 'メインメニュー',
     'blog'                          => 'ブログ',
     'pages'                         => 'ページ',
-    'members'                       => 'メンバー一覧',
     'account_settings'              => 'アカウント設定',
     'profile'                       => 'プロフィール',
     'change_password'               => 'パスワード変更',

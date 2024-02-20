@@ -24,7 +24,3 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('adminlte', function () {
     return view('adminlte');
 });
-
-Route::get('admin/members', function () {
-    return view('members');
-});

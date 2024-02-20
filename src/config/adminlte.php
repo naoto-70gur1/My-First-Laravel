@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '初Laravel',
+    'logo' => '<b>Admin</b>LTE',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -253,7 +253,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'adminlte',
+    'dashboard_url' => 'home',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -312,8 +312,8 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'members',
-            'url'         => 'admin/members',
+            'text'        => 'pages',
+            'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
